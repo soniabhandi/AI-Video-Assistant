@@ -1,0 +1,73 @@
+.env# =========================
+# Environment variables & secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Downloaded audio & media
+# =========================
+downloads/
+*.wav
+*.mp3
+*.m4a
+*.webm
+*.mp4
+
+# =========================
+# Generated outputs
+# =========================
+transcripts/
+outputs/
+temp/
+tmp/
+*.srt
+*.vtt
+
+# =========================
+# AI models & large files
+# =========================
+models/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE & operating system
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / packaging files
+# =========================
+build/
+dist/
+*.egg-info/
